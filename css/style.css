@@ -28,5 +28,15 @@ h2 {
   resize: vertical;  
 }
 
-
+form{
+  width: auto;
+  background-color: gray;
+  border-radius: 3em;
+  padding: 0.70em;
+  outline: 0.30em solid blue;
+  text-align: center;
+  margin-top: 17%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
 
