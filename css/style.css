@@ -71,3 +71,21 @@ input[type="text"],input[type="email"],input[type="tel"], input[type="date"] {
 input[type=submit]:hover {
   background-color: green;
 }
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.50em;
+    padding: 1.25em;	
+  }
+  
+  p {
+    font-size: 1em;
+	padding: 1em;
+  }
+  
+#fname, #lname, #email, #tel, #dob, #sub {
+  font-size: 0.60em;
+  padding: 16px;
+ }
+}
+
