@@ -1,0 +1,11 @@
+h1 {
+  margin: auto;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 1.50em;
+  padding: 0.75em;
+  display: block;
+  position: relative;
+  resize: vertical;  
+}
