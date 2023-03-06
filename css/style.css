@@ -23,3 +23,7 @@ h2 {
   position: relative;
   resize: vertical;  
 }
+
+#inputname {
+	color: red;
+}
