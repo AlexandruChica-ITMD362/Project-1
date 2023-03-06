@@ -79,6 +79,11 @@ input[type=submit]:hover {
   background-color: green;
 }
 
+#theButton {
+  margin-left: 48%;
+  margin-right: 9%;
+}
+
 /* Media Querie for 600px */
 @media (max-width: 600px) {
   h1 {
