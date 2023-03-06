@@ -33,10 +33,10 @@ h2 {
 
 /* Style used for paragraph */
 p {
- margin-top: 1%;
- text-align: center;
- color: white;
- font-size: 1.50em;
+  margin-top: 1%;
+  text-align: center;
+  color: white;
+  font-size: 1.50em;
 }
 
 /* Style used for form */
@@ -84,11 +84,11 @@ input[type=submit]:hover {
   h1 {
     font-size: 1.25em;
     padding: 1em;	
-}  
+  }  
   p {
     font-size: 1em;
     padding: 1em;
-}
+  }
   
 #fname, #lname, #email, #tel, #dob, #sub {
   font-size: 0.50em;
