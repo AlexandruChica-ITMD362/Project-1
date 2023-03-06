@@ -1,5 +1,5 @@
 body{
-  background-image: url(../media/backgroundimg.jpg);
+  background-image: url(../media/ps5.jpg);
 }
 
 h1 {
@@ -30,13 +30,22 @@ h2 {
 
 form{
   width: auto;
-  background-color: gray;
+  background-color: #E8E8E8;
   border-radius: 3em;
   padding: 0.70em;
   outline: 0.30em solid blue;
   text-align: center;
-  margin-top: 17%;
+  font-family: "Helvetica", serif;
+  margin-top: 2%;
   margin-left: 25%;
   margin-right: 25%;
 }
+
+input[type="text"],input[type="email"],input[type="tel"], input[type="date"] {
+  width: 100%;
+  padding: 0.50em;
+  box-sizing: border-box;
+  
+}
+
 
