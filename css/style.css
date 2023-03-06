@@ -28,6 +28,11 @@ h2 {
   resize: vertical;  
 }
 
-#inputname {
-	color: red;
+#user-input {
+  text-align: center;
+  color: yellow;
+}
+
+#uz {
+  color: red;
 }
