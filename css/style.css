@@ -1,7 +1,9 @@
+/* Background image */
 body {
   background-image: url(../media/ps5.jpg);
 }
 
+/* Style used for header h1 */
 h1 {
   margin: auto;
   background-color: blue;
@@ -15,6 +17,7 @@ h1 {
   resize: vertical;  
 }
 
+/* Style used for header h2 */
 h2 {
   margin: auto;
   background-color: blue;
@@ -28,6 +31,7 @@ h2 {
   resize: vertical;  
 }
 
+/* Style used for paragraph */
 p {
  margin-top: 1%;
  text-align: center;
@@ -35,6 +39,7 @@ p {
  font-size: 1.50em;
 }
 
+/* Style used for form */
 form {
   width: auto;
   background-color: #008080;
@@ -48,6 +53,7 @@ form {
   margin-right: 25%;
 }
 
+/* Style for user inputs */
 input[type="text"],input[type="email"],input[type="tel"], input[type="date"] {
   width: 100%;
   padding: 0.50em;
@@ -59,6 +65,7 @@ input[type="text"],input[type="email"],input[type="tel"], input[type="date"] {
   padding: 0.10em;
 }
 
+/* Style for Submit button */
 #sub {
   margin: 0.20em;
   text-align: center;
@@ -72,7 +79,25 @@ input[type=submit]:hover {
   background-color: green;
 }
 
-@media screen and (max-width: 600px) {
+/* Media Querie for 600px */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.25em;
+    padding: 1em;	
+}  
+  p {
+    font-size: 1em;
+    padding: 1em;
+}
+  
+#fname, #lname, #email, #tel, #dob, #sub {
+  font-size: 0.50em;
+  padding: 16px;
+ }
+}
+
+/* Media Querie for 1200px */
+@media screen and (max-width: 1200px) {
   h1 {
     font-size: 1.50em;
     padding: 1.25em;	
