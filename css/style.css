@@ -1,11 +1,12 @@
 @font-face {
-  font-family: 'ps'; 
-  src: url(fonts/phantomstorm.ttf);
+  font-family: 'pstorm'; 
+  src: url(../fonts/phantomstorm.ttf);
 }
 
 /* Background image */
 body {
   background-image: url(../media/ps5.jpg);
+  background-size: cover;
 }
 
 /* Style used for header h1 */
@@ -14,9 +15,9 @@ h1 {
   background-color: blue;
   color: white;
   text-align: center;
-  font-family: "ps";
+  font-family: "pstorm";
   font-size: 2.25em;
-  padding: 0.30em;
+  padding: 0.40em;
   display: block;
   position: relative;
   resize: vertical;  
@@ -103,6 +104,7 @@ input[type=submit]:hover {
 #fname, #lname, #email, #tel, #dob, #sub {
   font-size: 0.50em;
   padding: 16px;
+  width: 90%;
  }
 }
 
@@ -121,6 +123,6 @@ input[type=submit]:hover {
 #fname, #lname, #email, #tel, #dob, #sub {
   font-size: 0.60em;
   padding: 16px;
+  width: 90%;
  }
 }
-
