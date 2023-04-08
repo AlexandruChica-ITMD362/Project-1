@@ -106,6 +106,9 @@ input[type=submit]:hover {
   padding: 16px;
   width: 90%;
  }
+ 
+form {
+	font-size: 2em;
 }
 
 /* Media Querie for 1200px */
@@ -124,5 +127,9 @@ input[type=submit]:hover {
   font-size: 0.60em;
   padding: 16px;
   width: 90%;
+ }
+ 
+ form {
+	font-size: 2em;
  }
 }
