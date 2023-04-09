@@ -108,7 +108,7 @@ input[type=submit]:hover {
   }
  
   form {
-	font-size: 2em;
+    font-size: 2em;
   }
 }
 /* Media Querie for 1200px */
@@ -120,7 +120,7 @@ input[type=submit]:hover {
   
   p {
     font-size: 1em;
-	padding: 1em;
+      padding: 1em;
   }
   
   #fname, #lname, #email, #tel, #dob, #sub {
